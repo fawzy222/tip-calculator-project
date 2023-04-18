@@ -5,7 +5,7 @@ const peopleInput = document.getElementById('people');
 const tipAmountOutput = document.getElementById('tip-amount');
 const totalAmountOutput = document.getElementById('total-amount');
 const resetButton = document.getElementById("reset");
-const buttons = document.querySelectorAll(".percentages button");
+
 
 let billAmount = 0;
 let tipPercentage = 0;
