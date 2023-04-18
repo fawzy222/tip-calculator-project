@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip-calculator</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="icon"><img src="/images/logo.svg"></div>
+  <div class="main-ctn">
+    <div class="bill-ctn">
+      <h4>Bill</h4>
+        <img src="/images/icon-dollar.svg">
+        <input type="number" id="bill" placeholder="142.50">
+    </div>
+    <div class="tip-ctn">
+      <h4>Select Tip %</h4>
+      <div class="percentages">
+        <button class="5-percent">5%</button>
+        <button class="10-percent">10%</button>
+        <button class="15-percent">15%</button>
+        <button class="25-percent">25%</button>
+        <button class="50-percent">50%</button>
+        <div class="custom-tip"><input type="number" placeholder="Custom"></div>
+      </div>
+    </div>
+    <div class="people-ctn">
+      <h4>Number Of People</h4>
+      <img src="/images/icon-person.svg">
+      <input type="number">
+    </div>
+    <div class="total-ctn">
+      <div class="tip-amount">
+        <div class="tip-text">
+          <p>Tip Amount</p>
+          <p class="person">/Person</p>
+        </div>
+        <div class="amount" id="tip-amount">$4.29</div>
+      </div>
+      <div class="total-amount">
+        <div class="total-text">
+          <p>Total</p>
+          <p class="person">/Person</p>
+        </div>
+        <div class="amount" id="total-amount">$32.99</div>
+      </div>
+      <button>RESET</button>
+    </div>
+  </div>
+</body>
+</html>

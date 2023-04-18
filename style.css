@@ -1,0 +1,171 @@
+
+
+body{
+    background-color:hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+.main-ctn{
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 90px;
+    display:block;
+    max-width: 900px;
+    height: 450px;
+}
+h4{
+    font-size: 21px;
+    color:hsl(184, 14%, 56%);
+    font-family: 'Space Mono', monospace;
+}
+input{
+    width:280px;
+    height:35px;
+    background-color: hsl(189, 41%, 97%);
+    text-align: right;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    position: relative;
+    border-radius: 10px;
+    margin-left: -40px;
+}
+.bill-ctn img , .people-ctn img { 
+    position: relative;
+    left: 0px;
+    top: 9px;
+    height: 25px;
+    margin: 5px;
+    z-index: 1;
+}
+.tip-ctn , .people-ctn, .bill-ctn{ 
+    flex:50%;
+    max-width: 400px;
+}
+.bill-ctn , .people-ctn{
+    max-height: 150px;
+    
+}
+
+.percentages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    
+}
+.percentages button{
+    width: 100px;
+    height: 45px;
+    margin: 5px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+}
+.percentages input{
+    width: 100px;
+    height:40px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.total-ctn{
+    background-color:hsl(183, 100%, 15%);
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-top: 30px;
+    height: 450px;
+    width: 450px;
+    position: relative;
+    left: 430px;
+    bottom: 450px;
+}
+.tip-amount , .total-amount{
+    display: flex;
+}
+.tip-text, .total-text{
+    flex: 40%;
+}
+.amount{
+    flex: 20%;
+    margin-top: 20px;
+}
+.total-ctn button{
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: hsl(172, 67%, 45%);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    color: hsl(183, 100%, 15%);
+    font-weight:900;
+    margin: auto;
+    margin-top: 100px;
+}
+.total-ctn p{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.total-ctn .person{
+    font-weight: 100;
+    font-size: smaller;
+    color:hsl(185, 41%, 84%);
+}
+.amount{
+    font-size: 26px;
+    font-weight:bolder;
+    color:  hsl(172, 67%, 45%);
+    font-family: 'Space Mono', monospace;
+    margin: 13px 10px;
+}
+@media only screen and (max-width: 900px) {
+    .main-ctn{
+    height: 850px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+    margin: auto;
+    }
+    .total-ctn{
+        left: 0;
+        bottom: 0;
+        width: 350px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+}
+@media only screen and (max-width: 420px) {
+.icon img{
+    margin: 30px 150px;
+    width: 135px;
+    height: 75px;
+    }
+.main-ctn{
+    height: 1000px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+    margin: auto;
+}
+.total-ctn{
+    left: 0;
+    bottom: 0;
+    width: 350px;
+    padding: 25px;
+}
+.tip-ctn{
+    max-height: 200px;
+
+}
+input{
+    width:330px;
+    height:35px;
+    margin-left: -40px;
+}
+}
