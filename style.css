@@ -4,6 +4,11 @@ body{
     background-color:hsl(185, 41%, 84%);
     font-family: 'Space Mono', monospace;
 }
+.icon img{
+    margin: 50px 500px;
+    width: 135px;
+    height: 75px;
+}
 .main-ctn{
     border:1px solid black;
     border-radius: 10px;
